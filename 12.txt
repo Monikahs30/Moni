@@ -1,3 +1,11 @@
 change1
 change2
+<<<<<<< HEAD
 change3
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> parent of 42e1bb2... 3c
+=======
+>>>>>>> parent of e216091... conclict resolved
