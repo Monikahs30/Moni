@@ -1,5 +1,8 @@
 change1
 change2
+<<<<<<< HEAD
 change3
 
 
+=======
+>>>>>>> parent of 42e1bb2... 3c
