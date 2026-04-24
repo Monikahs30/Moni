@@ -1,0 +1,9 @@
+#!/bin/bash
+
+check_disk()
+{
+    df -h > size.txt
+    mv size.txt /home/moni/Desktop/backup/
+}
+
+check_disk

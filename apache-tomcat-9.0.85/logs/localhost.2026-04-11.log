@@ -1,0 +1,22 @@
+11-Apr-2026 00:54:25.478 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2026 00:54:25.479 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2026 00:54:25.485 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@285c08c8')
+11-Apr-2026 01:13:32.878 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+11-Apr-2026 01:13:59.632 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+11-Apr-2026 01:14:00.829 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2026 01:14:00.829 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2026 01:14:00.837 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@330ee022')
+11-Apr-2026 01:14:01.442 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2026 01:14:01.443 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2026 03:21:06.134 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+11-Apr-2026 03:21:08.517 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2026 03:21:08.518 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2026 03:21:08.532 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@12d9f737')
+11-Apr-2026 03:21:10.025 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2026 03:21:10.025 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2026 03:22:13.047 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+11-Apr-2026 03:22:14.367 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2026 03:22:14.368 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2026 03:22:14.375 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4639d779')
+11-Apr-2026 03:22:15.103 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2026 03:22:15.104 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

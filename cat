@@ -1,0 +1,4 @@
+[Service]
+Environment="JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64"
+Environment="JENKINS_JAVA_CMD=/usr/lib/jvm/java-21-openjdk-amd64/bin/java"
+

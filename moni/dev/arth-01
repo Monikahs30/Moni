@@ -1,0 +1,30 @@
+#!/bin/bash
+#Author - Monika
+#Date - 1/4/26
+#Description - ARTH operaters
+
+echo "enter num1"
+read num1
+
+echo "enter num2"
+read num2
+
+echo "addition of two numbers"
+sum=$((num1 + num2 ))
+echo "sum of two numbers $sum"
+echo "sum = $sum"
+
+echo "sub of two numbers"
+sub=$((num1 - num2 ))
+echo "Diffrenec of two numbers $sub"
+echo "sub = $sub"
+
+echo "multiplication of two number"
+mult=$((num1 * num2 ))
+echo "mult of two numbers $mult"
+echo "multiplication = $mult"
+
+echo "division of two number"
+div=$((num1 / num2 ))
+echo "div of two numbers $div"
+echo "division = $div"

@@ -1,0 +1,16 @@
+#!/bin/bash
+#Author - Monika
+#Date - 1/4/26
+#Description - ARTH operators
+
+echo "(enter file/directory name):"
+read name
+
+if [ -f "$name" ]; then
+echo "$name is a file"
+
+elif [ -d "$name" ]; then
+echo "$name is a directory"
+
+else echo "$name invalid"
+fi

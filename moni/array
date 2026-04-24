@@ -1,0 +1,14 @@
+#!/bin/bash 
+echo “enter the num1”
+read num1
+echo “enter the num2”
+read num2
+addition ( ) {
+sum=$((num1 + num2))
+echo “sum of two numbers $sum”
+}
+Difference ( ) {
+sub=$((num1 - num2))
+echo “difference of two numbers $sub”
+}
+

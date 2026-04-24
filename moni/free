@@ -1,0 +1,25 @@
+#!/bin/bash
+#Author - Monika
+#Date - 2/4/26
+#Description - free memory check
+
+thersold = 70
+
+total=$(free -m | awk '/Mem:/ {print $2}')
+used=$(free -m | awk '/Mem:/ {print $3}')
+
+free_mem=$((total - used))
+
+free_perc=$((free_mem * 100 / total))
+
+echo "Total Memory: $total MB"
+echo "Used Memory : $used MB"
+echo "Free Memory : $free_mem MB"
+echo "Free %      : $free_perc %"
+
+if [ $free_perc -gt $THRESHOLD ]
+then
+    echo "Free memory is greater than threshold ($THRESHOLD%)"
+else
+    echo "ALERT: Free memory is below threshold ($THRESHOLD%)"
+fi

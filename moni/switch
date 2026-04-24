@@ -1,0 +1,37 @@
+#!/bin/bash
+#Author - Monika
+#Date - 2/4/26
+#Description -iswitch 
+
+echo choose an option
+echo “ 1. free -m”
+echo “ 2. Df -h”
+echo “ 3. Du -h”
+echo “ 4. uname -a”
+echo “ 5. Man -help”
+read $opr
+
+case “$opr” in
+1)
+echo “running free -m”
+free -m
+;;
+2)
+echo “running df -h”
+df -h
+;;
+3)
+echo “running du -h”
+du -h
+;;
+4)
+echo “running uname -a”
+uname -a
+;;
+5)
+echo “running - -help”
+man -- help
+;;
+*) echo it’s not valid ;;
+esac
+

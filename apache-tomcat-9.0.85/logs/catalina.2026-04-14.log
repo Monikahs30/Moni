@@ -1,0 +1,110 @@
+14-Apr-2026 08:17:38.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Apr-2026 08:17:38.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Apr-2026 08:17:38.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Apr-2026 08:17:38.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Apr-2026 08:17:38.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-139-generic
+14-Apr-2026 08:17:38.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Apr-2026 08:17:38.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+14-Apr-2026 08:17:38.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.15+6-Ubuntu-0ubuntu120.04
+14-Apr-2026 08:17:38.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+14-Apr-2026 08:17:38.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/moni/Desktop/apache-tomcat-9.0.85
+14-Apr-2026 08:17:38.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/moni/Desktop/apache-tomcat-9.0.85
+14-Apr-2026 08:17:38.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Apr-2026 08:17:38.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Apr-2026 08:17:38.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Apr-2026 08:17:38.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Apr-2026 08:17:38.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Apr-2026 08:17:38.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/moni/Desktop/apache-tomcat-9.0.85/conf/logging.properties
+14-Apr-2026 08:17:38.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2026 08:17:38.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Apr-2026 08:17:38.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Apr-2026 08:17:38.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Apr-2026 08:17:38.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Apr-2026 08:17:38.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/moni/Desktop/apache-tomcat-9.0.85
+14-Apr-2026 08:17:38.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/moni/Desktop/apache-tomcat-9.0.85
+14-Apr-2026 08:17:38.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/moni/Desktop/apache-tomcat-9.0.85/temp
+14-Apr-2026 08:17:38.302 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+14-Apr-2026 08:17:39.777 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Apr-2026 08:17:39.872 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2815] milliseconds
+14-Apr-2026 08:17:40.018 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Apr-2026 08:17:40.018 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Apr-2026 08:17:40.071 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/jenkins.war]
+14-Apr-2026 08:17:47.531 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+14-Apr-2026 08:17:54.935 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2026 08:17:54.941 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+14-Apr-2026 08:17:54.949 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/jenkins] startup failed due to previous errors
+14-Apr-2026 08:17:54.976 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/jenkins.war] has finished in [14,903] ms
+14-Apr-2026 08:17:54.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/Amazon]
+14-Apr-2026 08:17:58.826 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2026 08:17:58.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/Amazon] has finished in [3,917] ms
+14-Apr-2026 08:17:58.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/examples]
+14-Apr-2026 08:17:59.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/examples] has finished in [560] ms
+14-Apr-2026 08:17:59.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/ROOT]
+14-Apr-2026 08:17:59.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/ROOT] has finished in [48] ms
+14-Apr-2026 08:17:59.506 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/host-manager]
+14-Apr-2026 08:17:59.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/host-manager] has finished in [60] ms
+14-Apr-2026 08:17:59.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/manager]
+14-Apr-2026 08:17:59.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/manager] has finished in [54] ms
+14-Apr-2026 08:17:59.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/docs]
+14-Apr-2026 08:17:59.671 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/docs] has finished in [49] ms
+14-Apr-2026 08:17:59.681 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Apr-2026 08:17:59.760 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [19887] milliseconds
+14-Apr-2026 08:19:52.534 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Apr-2026 08:19:52.559 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Apr-2026 08:19:52.601 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Apr-2026 08:19:52.623 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Apr-2026 08:23:30.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Apr-2026 08:23:30.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Apr-2026 08:23:30.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Apr-2026 08:23:30.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Apr-2026 08:23:30.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-139-generic
+14-Apr-2026 08:23:30.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Apr-2026 08:23:30.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+14-Apr-2026 08:23:30.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.15+6-Ubuntu-0ubuntu120.04
+14-Apr-2026 08:23:30.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+14-Apr-2026 08:23:30.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/moni/Desktop/apache-tomcat-9.0.85
+14-Apr-2026 08:23:30.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/moni/Desktop/apache-tomcat-9.0.85
+14-Apr-2026 08:23:30.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Apr-2026 08:23:30.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Apr-2026 08:23:30.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Apr-2026 08:23:30.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Apr-2026 08:23:30.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Apr-2026 08:23:30.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/moni/Desktop/apache-tomcat-9.0.85/conf/logging.properties
+14-Apr-2026 08:23:30.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2026 08:23:30.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Apr-2026 08:23:30.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Apr-2026 08:23:30.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Apr-2026 08:23:30.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Apr-2026 08:23:30.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/moni/Desktop/apache-tomcat-9.0.85
+14-Apr-2026 08:23:30.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/moni/Desktop/apache-tomcat-9.0.85
+14-Apr-2026 08:23:30.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/moni/Desktop/apache-tomcat-9.0.85/temp
+14-Apr-2026 08:23:30.096 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+14-Apr-2026 08:23:30.838 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Apr-2026 08:23:30.899 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1266] milliseconds
+14-Apr-2026 08:23:30.989 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Apr-2026 08:23:30.990 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Apr-2026 08:23:31.019 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/jenkins.war]
+14-Apr-2026 08:23:31.566 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+14-Apr-2026 08:23:37.348 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2026 08:23:37.360 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+14-Apr-2026 08:23:37.387 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/jenkins] startup failed due to previous errors
+14-Apr-2026 08:23:37.415 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/jenkins.war] has finished in [6,396] ms
+14-Apr-2026 08:23:37.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/Amazon]
+14-Apr-2026 08:23:42.081 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2026 08:23:42.128 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/Amazon] has finished in [4,711] ms
+14-Apr-2026 08:23:42.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/examples]
+14-Apr-2026 08:23:42.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/examples] has finished in [376] ms
+14-Apr-2026 08:23:42.506 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/ROOT]
+14-Apr-2026 08:23:42.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/ROOT] has finished in [36] ms
+14-Apr-2026 08:23:42.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/host-manager]
+14-Apr-2026 08:23:42.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/host-manager] has finished in [50] ms
+14-Apr-2026 08:23:42.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/manager]
+14-Apr-2026 08:23:42.642 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/manager] has finished in [47] ms
+14-Apr-2026 08:23:42.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/docs]
+14-Apr-2026 08:23:42.682 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/moni/Desktop/apache-tomcat-9.0.85/webapps/docs] has finished in [39] ms
+14-Apr-2026 08:23:42.690 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Apr-2026 08:23:42.722 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11822] milliseconds
+14-Apr-2026 08:25:06.756 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Apr-2026 08:25:06.833 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Apr-2026 08:25:06.940 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Apr-2026 08:25:06.986 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

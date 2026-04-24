@@ -1,0 +1,7 @@
+127.0.0.1 - admin [24/Apr/2026:16:47:15 +0530] "PUT /manager/text/deploy?path=/amazon&update=true HTTP/1.1" 200 63
+127.0.0.1 - - [24/Apr/2026:16:48:17 +0530] "GET / HTTP/1.1" 200 11230
+127.0.0.1 - - [24/Apr/2026:16:48:23 +0530] "GET /manager/html HTTP/1.1" 401 2499
+127.0.0.1 - admin [24/Apr/2026:16:48:35 +0530] "GET /manager/html HTTP/1.1" 200 21867
+127.0.0.1 - admin [24/Apr/2026:16:49:30 +0530] "POST /manager/html/undeploy;jsessionid=1536679E09EB0403A91856CDDEAB0344?path=/amazon&org.apache.catalina.filters.CSRF_NONCE=357955C22F2E5F70ED7007C766A1A0B5 HTTP/1.1" 200 18279
+127.0.0.1 - admin [24/Apr/2026:16:50:37 +0530] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=E6AC687AE622A05AEE93A0FD9EAAC19F HTTP/1.1" 200 18259
+127.0.0.1 - admin [24/Apr/2026:16:51:22 +0530] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=66A2658795411A629B7BFC9A33B4D986 HTTP/1.1" 200 20062
